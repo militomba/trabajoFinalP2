@@ -1,0 +1,56 @@
+{
+  "changelogDate": "20231024221331",
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "cliente",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "accionID",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "accion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "operacion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cantidadAcciones",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fechaOperacion",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "modo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "operacionExitosa",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "operacionObservaciones",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ejecutada",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "reportada",
+      "fieldType": "Boolean"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Ordenes",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}
