@@ -3,6 +3,7 @@ package ar.edu.um.programacion2.procesador.web.rest;
 import ar.edu.um.programacion2.procesador.domain.Ordenes;
 import ar.edu.um.programacion2.procesador.repository.OrdenesRepository;
 import ar.edu.um.programacion2.procesador.service.OrdenesService;
+import ar.edu.um.programacion2.procesador.service.dto.OrdenDTO;
 import ar.edu.um.programacion2.procesador.web.rest.errors.BadRequestAlertException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -27,7 +28,7 @@ import tech.jhipster.web.util.ResponseUtil;
  * REST controller for managing {@link ar.edu.um.programacion2.procesador.domain.Ordenes}.
  */
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/ordenes")
 public class OrdenesResource {
 
     private final Logger log = LoggerFactory.getLogger(OrdenesResource.class);

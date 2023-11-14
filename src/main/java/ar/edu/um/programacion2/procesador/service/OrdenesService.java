@@ -2,13 +2,19 @@ package ar.edu.um.programacion2.procesador.service;
 
 import ar.edu.um.programacion2.procesador.domain.Ordenes;
 import ar.edu.um.programacion2.procesador.repository.OrdenesRepository;
+import ar.edu.um.programacion2.procesador.service.dto.OrdenDTO;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.client.RestTemplate;
 
 /**
  * Service Implementation for managing {@link Ordenes}.
@@ -131,4 +137,6 @@ public class OrdenesService {
         log.debug("Request to delete Ordenes : {}", id);
         ordenesRepository.deleteById(id);
     }
+    /** ------------------------PARTE HECHA POR MI --------------------------* */
+
 }
